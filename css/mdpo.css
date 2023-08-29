@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/bac.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.49);
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.input-field {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 22px;
+    text-align: center;
+    background-color: rgb(230, 227, 233);
+}
+.submit-button {
+    background-color: rgb(73, 207, 19);
+    color: rgba(247, 247, 247, 0.767);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    color: rgb(236, 236, 236); 
+    background-color: rgba(78, 184, 64, 0.767);
+}
+.succes {
+    background-color: rgb(165, 154, 6);
+    color: rgb(246, 247, 243);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.succes:hover{
+    color: black; 
+    background-color: rgb(255, 238, 0);
+}
+
+.retour{
+    margin-top: 10px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(246, 247, 243);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.retour:hover{
+    background-color: rgb(246, 247, 243);
+    color: rgb(12, 12, 12);
+    margin-top: 20px;
+}
